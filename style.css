@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url('/images/estrelas.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+}
+
+html {
+  height: 100vh;
+}
+
+/* - - - - - - - - - - - page-index-html - - - - - - - - - - -*/
+nav {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 4fr ;
+  align-items: center;
+  
+    
+  margin: 5rem auto;
+}
+
+nav a {
+  color: rgb(206, 203, 203);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: white;
+}
+
+#galaxia {
+  width: 50px;
+}
+
+/* - - - - - - - - - - -  page-home- - - - - - - - - - -*/
+header {
+  width: 60%;
+  margin: 5rem auto;
+  
+}
+header p {
+  color: rgb(157, 157, 197);
+  margin-bottom: 1.2rem;
+  font-size: 3rem;
+}
+
+header h1 {
+  color: rgb(211, 204, 204);
+  margin-bottom: 2rem;
+  border-bottom: 2px solid rgb(85, 80, 80);
+  padding: 2rem 0;
+}
+
+header h3 {
+  color: rgb(174, 169, 169);
+  font-size: 1.5rem;
+  letter-spacing: 0.01rem;
+  line-height: 2.5rem;
+  font-weight: 500;
+}
+
+#planeta {
+  margin: 3rem 0;
+  max-width: 30rem ;
+}
+
+/* - - - - - - - - - - - page-contact - - - - - - - - - - -*/
+
+/* - - - - - - - - - - - page-contact - - - - - - - - - - -*/
+
+.contact h1 {
+  text-align: center;
+  background: rgb(223, 219, 219);
+  border: 1px solid rgb(216, 213, 213);
+  padding: 4rem;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+form {
+  margin: 0 auto;
+  width: 60%;
+}
+
+form p {
+  color: white;
+  font-size: 1.5rem;
+  margin: 3rem 0;
+}
+
+input {
+  padding: 1rem;
+  margin-right: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+#email {
+  padding: 1rem;
+  margin-right: 1.5rem;
+  margin-bottom: 4rem;
+  width: 40rem;
+}
+
+label {
+  color: white;
+  font-size: 1.5rem;
+}
+
+textarea {
+  width: 90%;
+  margin-top: 1rem;
+}
+
+button {
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
